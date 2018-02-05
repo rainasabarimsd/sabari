@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+char main()
+{
+ char i,n;
+ printf("Enter the values to print:");
+ scanf("%d",&n);
+ for(fori=1;i<=n;i++)
+ {
+ printf("\n Hello");
+ }
+ getch();
+ return 0;
+ }
+ 
