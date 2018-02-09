@@ -3,13 +3,13 @@
 int main()
 {
    int fact=1;
-    int i;
+    int j;
     int n;
     scanf("%d",&n);
     int sum;
-    for(i=1;i<6;i++)
-    {   sum=n*i;
-        printf("%d*%d=%d",n,i,sum);
+    for(j=1;j<6;j++)
+    {   sum=n*j;
+        printf("%d*%d=%d",n,j,sum);
         printf("\n");
     }
 }
